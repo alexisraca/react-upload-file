@@ -219,7 +219,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        });
 	      });
 
-	      xhr.addEventListener('progress', function (progress) {
+	      xhr.upload.addEventListener('progress', function (progress) {
 	        _this.uploading(progress);
 	      });
 
